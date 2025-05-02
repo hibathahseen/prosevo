@@ -63,9 +63,6 @@
     height: 100vh;
     text-align: center;
 }
-gparent{
-    
-}
 
 
 .photo {
@@ -338,11 +335,44 @@ span {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+
+
     body {
         display: flex;
 
         height: 100px;
         background-color: lightblue;
     }
+    .cparent {
+        display: flex;
+        height: 100vh;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .parent1{
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+    }
+    .bchild1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .parent5{
+        flex-direction: column;
+    }
+    .parent7{
+        flex-direction: column;
+        align-items: center;
+    }
+    .acb{
+        flex-direction: column-reverse;
+        align-items: center;
+
+    
+    }
+
+
+
 }
